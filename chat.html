@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Socket.IO chat</title>
+        <style>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body { font: 13px Helvetica, Arial; }
+            .localCam video {
+                border: 5px solid rgb(119, 119, 119);
+                outline: 0px none;
+                height: 240px;
+                width: 320px;
+            }
+        </style>
+        <script src="socket.io-1.2.0.js"></script>
+        <script src="jquery-1.11.1.js"></script>
+    </head>
+    <body>
+        <video id="local-video" muted="muted"></video>
+    </body>
+</html>
